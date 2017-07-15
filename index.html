@@ -1,45 +1,86 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
   <head>
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 		<link href="css/normalize.css" rel="stylesheet">
 		<link href="css/main.css" rel="stylesheet">
-    <title> Annony </title>
+    <title> Post Page </title>
   </head>
 
   <body>
-    <div id="big wrapper">
+    <div class="big_wrapper">
+      <header>
+      <div class="main_logo">
+        <h1> ANONY</h1>
+      </div>
 
-      <div id="nav_bar">
-        <ul class="main-nav">
-					<li><a href="#"> Home</a></li>
-					<li><a href="#"> Challenge</a></li>
-					<li><a href="#"> Take a Quiz</a></li>
+      <nav class="nav_bar">
+        <ul >
+					<li><a href="home.html"> Home</a></li>
+					<li><a href="trending.html"> Trending</a></li>
+					<li><a href="categories.html"> Categories</a></li>
 					<li><a href="#"> Contact</a></li>
 					<li><a href="#"> About Us</a></li>
-				</ul>                     
+				</ul>
+
+      </nav>
+    </header>
+
+    <div class="leftside_content">
+
+        <input type="text" placeholder="ENTER THE TITLE" size="98" height="100" class="title">
+        </br></br>
+        <textarea placeholder="ENTER HERE \\.."  rows="20" cols="100" class="text_area"></textarea>
+        </br></br>
+        <input type="submit" value="Post/Upload" class="submit">&nbsp;&nbsp;
+        <input type="submit" value="Attach Link" class="submit">&nbsp;&nbsp;
+        <input type="submit" value="Add Photo" class="submit">&nbsp;&nbsp;
+        <input type="submit" value="Add Video" class="submit">&nbsp;&nbsp;
+        </br></br>
 
       </div>
 
-      <div id="right_content">
+      <div class="rightside_content">
 
-        <input type="text" placeholder="Enter the title" >
-        <br>
-        <input type="text" placeholder="Enter here \\.." height="150px" width="200px">
-        <br>
-        <input type="submit" placeholder="Post" >
-        <input type="submit" placeholder="attach link" >
-        <input type="submit" placeholder="Add photo" >
-        <input type="submit" placeholder="Post" >
-        
-      </div>
+          <table class="table1">
+            <th><a href="home.html">Latest Posts</a></th>
+            <tr>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+          </table>
 
-      <div id="left_content">
+      <table class="table2">
+        <th><a href="trending.html">Trending</a></th>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+      </table>
 
-      </div>
+  </div>
+
 
       <div id="the_footer">
-
+        <footer>
+        <div class="copyright clear">&copy;copyright 2017, TechTurks. All rights reserved.</div>
+  		</footer>
       </div>
     </div>
   </body>
